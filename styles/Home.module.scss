@@ -1,0 +1,88 @@
+.hero {
+  height: 764px;
+  width: 100vw;
+  background-image: url("/bg.png");
+  padding-left: 9rem;
+  padding-right: 9rem;
+  background-size: cover;
+
+  .intro {
+    margin-top: 10rem;
+  }
+
+  .name {
+    font-weight: 700;
+    font-size: 48px;
+    color: #1f2937;
+  }
+  summary {
+    font-weight: 400;
+    font-size: 20px;
+    color: #313131;
+  }
+  .dark {
+    width: 230px;
+    height: 48px;
+    gap: 10px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #1f2937;
+    color: #f9fafb;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 1rem;
+    margin-top: 3rem;
+
+    img {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .light {
+    width: 230px;
+    height: 48px;
+    gap: 10px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: rgba(249, 250, 251, 0.8);
+    color: #1f2937;
+    font-weight: 400;
+    font-size: 16px;
+
+    img {
+      margin-left: 0.5rem;
+    }
+  }
+  .mko {
+    border-radius: 100px;
+    padding-left: 5rem;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10rem;
+  padding-top: 2rem;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2937;
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+  span {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+}

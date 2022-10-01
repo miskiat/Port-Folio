@@ -1,21 +1,29 @@
 import React from "react";
 import Navbar from "./Navbar";
-import styles from "./../styles/Home.module.css";
+import styles from "./../styles/Home.module.scss";
 const Hero = () => {
   return (
     <section className={styles.hero}>
       <Navbar />
-      <section>
-        <h1>Hi 👋</h1>
-        <h1>I'm Miskiat Badmus</h1>
-        <p>Passionate about coding</p>
-        <button>
+      <section className={styles.intro}>
+        <div className={styles.name}>
+          <h1>Hi 👋</h1>
+          <h1>I'm Miskiat Badmus</h1>
+        </div>
+
+        <p className={styles.summary}>
+          I am a Web Developer I develop and build a responsive web design
+        </p>
+        <button className={styles.dark}>
           Let's work together
-          <img src="/public/up-arrow.svg" />
+          <img src="/up-arrow.svg" />
         </button>
-        <button>
-          See some of my work <img src="/public/down-arrow.svg" />
+        <button className={styles.light}>
+          See some of my work
+          <img src="/down-arrow.svg" />
         </button>
+
+        <img className={styles.mko} src="/mko.jpg" />
       </section>
     </section>
   );
