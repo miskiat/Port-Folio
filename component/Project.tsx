@@ -1,10 +1,13 @@
 import React from "react";
-import styles from "./..styles/Home.modules.scss";
+import styles from "./../styles/Home.module.scss";
 
 const Project = () => {
   return (
-    <section>
-      <div>FEATURED PROJECTS</div>;
+    <section className={styles.project}>
+      <div>
+        <p>FEATURED PROJECTS</p>
+        <h1>Projects I've Worked On 📁</h1>
+      </div>
     </section>
   );
 };

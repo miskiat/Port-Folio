@@ -6,6 +6,7 @@ import Navbar from "../component/Navbar";
 import styles from "../styles/Home.module.scss";
 import About from "../component/About";
 import Project from "../component/Project";
+import Contact from "../component/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Hero />
       <About />
       <Project />
+      <Contact />
     </div>
   );
 };
