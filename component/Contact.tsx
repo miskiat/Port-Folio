@@ -16,9 +16,36 @@ const Contact = () => {
       </div>
       <section>
         <p>SOCIALS</p>
+        <div className={styles.github}>
+          <div>
+            <img src="github.png" />
+            <p>Github</p>
+          </div>
+          <img src="pink-arrow.png" />
+        </div>
         <div>
-          <img src="github.png" />
-          <h1>Github</h1>
+          <div>
+            <img src="linkedin.png" />
+            <h1>Linkedin</h1>
+          </div>
+
+          <img src="pink-arrow.png" />
+        </div>
+        <div>
+          <div>
+            <img src="codepen.png" />
+            <h1>Codepen</h1>
+          </div>
+
+          <img src="pink-arrow.png" />
+        </div>
+        <div>
+          <div>
+            <img src="twitter.png" />
+            <h1>Twitter</h1>
+          </div>
+
+          <img src="pink-arrow.png" />
         </div>
       </section>
     </section>
