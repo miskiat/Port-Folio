@@ -14,6 +14,13 @@ const Contact = () => {
           <img src="email-box.png" />
         </div>
       </div>
+      <section>
+        <p>SOCIALS</p>
+        <div>
+          <img src="github.png" />
+          <h1>Github</h1>
+        </div>
+      </section>
     </section>
   );
 };
