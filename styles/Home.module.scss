@@ -152,9 +152,18 @@
     border-radius: 8px;
     color: #1f2937;
   }
+  .app {
+    display: flex;
+
+    background-color: indianred;
+  }
   .github {
     display: flex;
-    height: 5rem;
-    width: 10rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    border: 9px solid yellow;
+    width: 30rem;
+    cursor: pointer;
   }
 }

@@ -7,6 +7,7 @@ import styles from "../styles/Home.module.scss";
 import About from "../component/About";
 import Project from "../component/Project";
 import Contact from "../component/Contact";
+import Footer from "../component/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <About />
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 };

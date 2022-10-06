@@ -16,37 +16,39 @@ const Contact = () => {
       </div>
       <section>
         <p>SOCIALS</p>
-        <div className={styles.github}>
-          <div>
-            <img src="github.png" />
-            <p>Github</p>
-          </div>
-          <img src="pink-arrow.png" />
-        </div>
-        <div>
-          <div>
-            <img src="linkedin.png" />
-            <h1>Linkedin</h1>
-          </div>
+        <section className={styles.app}>
+          <button className={styles.github}>
+            <div>
+              <img src="github.png" />
+              <p>Github</p>
+            </div>
+            <img src="pink-arrow.png" />
+          </button>
+          <button className={styles.github}>
+            <div>
+              <img src="linkedin.png" />
+              <p>Linkedin</p>
+            </div>
 
-          <img src="pink-arrow.png" />
-        </div>
-        <div>
-          <div>
-            <img src="codepen.png" />
-            <h1>Codepen</h1>
-          </div>
+            <img src="pink-arrow.png" />
+          </button>
+          <button className={styles.github}>
+            <div>
+              <img src="codepen.png" />
+              <p>Codepen</p>
+            </div>
 
-          <img src="pink-arrow.png" />
-        </div>
-        <div>
-          <div>
-            <img src="twitter.png" />
-            <h1>Twitter</h1>
-          </div>
+            <img src="pink-arrow.png" />
+          </button>
+          <button className={styles.github}>
+            <div>
+              <img src="twitter.png" />
+              <p>Twitter</p>
+            </div>
 
-          <img src="pink-arrow.png" />
-        </div>
+            <img src="pink-arrow.png" />
+          </button>
+        </section>
       </section>
     </section>
   );
