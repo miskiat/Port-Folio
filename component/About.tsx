@@ -18,19 +18,19 @@ const About = () => {
           <div className={styles.languages}>
             <p>
               {" "}
-              <img src="right.svg" /> HTML
+              <img src="rightt.svg" /> HTML
             </p>
             <p>
               {" "}
-              <img src="right.svg" /> CSS
+              <img src="rightt.svg" /> CSS
             </p>
             <p>
               {" "}
-              <img src="right.svg" /> JAVASCRIPT
+              <img src="rightt.svg" /> JAVASCRIPT
             </p>
             <p>
               {" "}
-              <img src="right.svg" /> TYPESCRIPT
+              <img src="rightt.svg" /> TYPESCRIPT
             </p>
           </div>
         </div>
@@ -39,23 +39,23 @@ const About = () => {
           <div className={styles.technologys}>
             <p>
               {" "}
-              <img src="right.svg" /> REACT NATIVE
+              <img src="rightt.svg" /> REACT NATIVE
             </p>
             <p>
               {" "}
-              <img src="right.svg" /> REACT
+              <img src="rightt.svg" /> REACT
             </p>
             <p>
               {" "}
-              <img src="right.svg" /> TAILWIND
+              <img src="rightt.svg" /> TAILWIND
             </p>
             <p>
               {" "}
-              <img src="right.svg" /> GIT
+              <img src="rightt.svg" /> GIT
             </p>
             <p>
               {" "}
-              <img src="right.svg" /> NETLIFY
+              <img src="rightt.svg" /> NETLIFY
             </p>
           </div>
         </div>

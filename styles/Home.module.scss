@@ -116,6 +116,9 @@
   .languages {
     font-size: 16px;
     font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
   }
   .technology {
     font-size: 24px;
@@ -124,6 +127,11 @@
   .technologys {
     font-size: 16px;
     font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+  img {
   }
 }
 .project {
