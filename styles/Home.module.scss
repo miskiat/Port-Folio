@@ -137,12 +137,29 @@
 .project {
   padding-left: 9rem;
 
-  background-color: darkkhaki;
+  background-image: url("/bg.png");
+
+  .featured {
+    padding: 0;
+    margin: 0;
+  }
+
+  .projectcard {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: fit-content;
+  }
+  img {
+    height: 20rem;
+    width: 30rem;
+  }
 }
 .contact {
   background-image: linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%);
   border-radius: 16px;
-
+  height: 20rem;
+  margin: 9rem;
   padding-left: 9rem;
 
   .mail {
@@ -160,18 +177,42 @@
     border-radius: 8px;
     color: #1f2937;
   }
-  .app {
-    display: flex;
+}
+.socials {
+  padding-left: rem;
 
-    background-color: indianred;
+  p {
+    margin: auto;
+    width: 57rem;
+    margin-bottom: 0.5rem;
   }
+
   .github {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    gap: 4rem;
-    border: 9px solid yellow;
-    width: 30rem;
+    gap: 1rem;
+    background-color: white;
+    border: 1px solid rgb(180, 180, 176);
+    width: 100%;
     cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    padding: 0.2rem;
   }
+  .socialname {
+    font-size: 1rem;
+    flex-grow: 1;
+    text-align: left;
+  }
+  .app {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin: auto;
+    width: 57rem;
+    row-gap: 2rem;
+  }
+}
+.footer {
 }
