@@ -19,19 +19,31 @@ const Contact = () => {
       <section className={styles.socials}>
         <p>SOCIALS</p>
         <section className={styles.app}>
-          <a href="https://github.com/miskiat" className={styles.github}>
+          <a
+            href="https://github.com/miskiat"
+            target="_blank"
+            className={styles.github}
+          >
             <img src="github.png" />
             <h3 className={styles.socialname}>Github</h3>
 
             <img src="pink-arrow.png" />
           </a>
-          <a className={styles.github}>
+          <a
+            href="https://linkedin.com/in/www/miskiat-badmus"
+            target="_blank"
+            className={styles.github}
+          >
             <img src="linkedin.png" />
             <h3 className={styles.socialname}>Linkedin</h3>
 
             <img src="pink-arrow.png" />
           </a>
-          <a className={styles.github}>
+          <a
+            href="https://codepen.io/miskiat"
+            target="_blank"
+            className={styles.github}
+          >
             <img src="codepen.png" />
             <h3 className={styles.socialname}>Codepen</h3>
 
