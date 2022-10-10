@@ -4,7 +4,8 @@ import styles from "./../styles/Home.module.scss";
 const Footer = () => {
   return (
     <section className={styles.footer}>
-      <div>Copyright © 2021 Miskiat Badmus</div>
+      <div className={styles.copyright}>Copyright © 2021 </div>
+      <div className={styles.name}>MISKIAT BADMUS</div>
     </section>
   );
 };

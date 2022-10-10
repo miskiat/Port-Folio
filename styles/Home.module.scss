@@ -136,12 +136,27 @@
 }
 .project {
   padding-left: 9rem;
-
+  padding-top: 8rem;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
   background-image: url("/bg.png");
+
+  .workedon {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 0.5rem;
+  }
 
   .featured {
     padding: 0;
     margin: 0;
+  }
+  .card {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 9rem;
   }
 
   .projectcard {
@@ -154,13 +169,33 @@
     height: 20rem;
     width: 30rem;
   }
+  button {
+    margin-right: 0.5rem;
+    background: rgba(245, 245, 245, 0.8);
+    backdrop-filter: blur(50px);
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+
+    width: 90px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.87);
+  }
 }
 .contact {
   background-image: linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%);
   border-radius: 16px;
-  height: 20rem;
+  height: 25rem;
   margin: 9rem;
-  padding-left: 9rem;
+  padding-left: 5rem;
+  width: 89rem;
+  padding-top: 4rem;
+  color: #f9fafb;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
 
   .mail {
     display: flex;
@@ -179,12 +214,13 @@
   }
 }
 .socials {
-  padding-left: rem;
-
   p {
     margin: auto;
     width: 57rem;
     margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
   }
 
   .github {
@@ -215,4 +251,29 @@
   }
 }
 .footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  padding: 8px 208px;
+
+  .copyright {
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Manrope";
+    padding-left: 2rem;
+    width: 9rem;
+    height: 1rem;
+  }
+  .name {
+    width: 9rem;
+    height: 1.5rem;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f2937;
+  }
 }
