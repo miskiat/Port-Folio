@@ -3,7 +3,7 @@ import styles from "./../styles/Home.module.scss";
 
 const Project = () => {
   return (
-    <section className={styles.project}>
+    <section id="work" className={styles.project}>
       <div>
         <p className={styles.featured}>FEATURED PROJECTS</p>
         <h1 className={styles.workedon}>Projects I've Worked On 📁</h1>

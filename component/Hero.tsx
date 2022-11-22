@@ -1,10 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
+
 import styles from "./../styles/Home.module.scss";
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <Navbar />
       <section className={styles.intro}>
         <div>
           <div className={styles.name}>
