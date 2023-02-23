@@ -39,11 +39,11 @@ const About = () => {
           <div className={styles.technologys}>
             <p>
               {" "}
-              <img src="rightt.svg" /> REACT NATIVE
+              <img src="rightt.svg" /> REACT
             </p>
             <p>
               {" "}
-              <img src="rightt.svg" /> REACT
+              <img src="rightt.svg" /> NEXTJS
             </p>
             <p>
               {" "}

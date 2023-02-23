@@ -13,11 +13,13 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <Hero />
-      <About />
-      <Project />
-      <Contact />
-      <Footer />
+      <div className={styles.children}>
+        <Hero />
+        <About />
+        <Project />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -1,3 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-grow: 1;
+  height: 100vh;
+}
+.children {
+  flex-grow: 1;
+  overflow-y: auto;
+}
 .hero {
   height: 764px;
   width: 100vw;
@@ -65,16 +76,17 @@
   align-items: center;
   width: 100%;
   gap: 10rem;
-  position: sticky;
-  top: 0;
-  right: 0;
-  left: 0;
+  // position: sticky;
+  // top: 0;
+  // right: 0;
+  // left: 0;
   font-size: 16px;
   font-weight: 700;
   color: #1f2937;
   z-index: 50;
   padding: 2rem 5rem;
   background-color: white;
+
   img {
     width: 2rem;
     height: 2rem;
@@ -108,7 +120,7 @@
   .skills {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 10rem;
     align-items: flex-start;
   }
   .language {
