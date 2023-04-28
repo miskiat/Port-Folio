@@ -15,8 +15,10 @@ const Hero = () => {
             I am a Web Developer I develop and build a responsive web design
           </p>
           <button className={styles.dark}>
-            Let's work together
-            <img src="/up-arrow.svg" />
+            <a href="mailto:badmusmiskiat@gmail.com" target="_blank">
+              Let's work together
+              <img src="/up-arrow.svg" />
+            </a>
           </button>
           <button className={styles.light}>
             <a href="#work">
