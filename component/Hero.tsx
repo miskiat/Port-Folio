@@ -19,8 +19,10 @@ const Hero = () => {
             <img src="/up-arrow.svg" />
           </button>
           <button className={styles.light}>
-            See some of my work
-            <img src="/down-arrow.svg" />
+            <a href="#work">
+              See some of my work
+              <img src="/down-arrow.svg" />
+            </a>
           </button>
         </div>
 

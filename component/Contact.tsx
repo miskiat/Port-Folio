@@ -9,7 +9,9 @@ const Contact = () => {
           <div>
             <p>CONTACT</p>
             <h1>Let's work together</h1>
-            <button>Message</button>
+            <a href="mailto:badmusmiskiat@gmail.com" target="_blank">
+              <button>Message</button>
+            </a>
           </div>
           <div>
             <img src="email-box.png" />
