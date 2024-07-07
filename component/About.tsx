@@ -7,10 +7,11 @@ const About = () => {
       <p>ABOUT ME</p>
       <h1>A bit about me.</h1>
       <p className={styles.summary}>
-        A Frontend Software Engineer experienced in designing, developing, and
-        managing apps and internal frameworks. I am a deep creative thinker with
-        a keen eye for details.I specialize in React, Typescript, Next.js and
-        responsive design.
+        A Software Engineer with an M.sc in Artificial Intelligence and Data
+        Science experienced in designing, developing, and managing apps and
+        internal frameworks. I am a deep creative thinker with a keen eye for
+        details.I specialize in React, Typescript, Next.js and responsive
+        design.
       </p>
       <div className={styles.skills}>
         <div className={styles.language}>

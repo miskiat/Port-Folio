@@ -56,7 +56,7 @@ const Project = () => {
               </a>
             </button>
           </div>
-          <div className={styles.projectcard}>
+          {/* <div className={styles.projectcard}>
             <img src="thelookbymis.b.png" />
             <h3>ThelookbyMis.B</h3>
             <p>
@@ -79,7 +79,7 @@ const Project = () => {
                 CSS
               </a>
             </button>
-          </div>
+          </div> */}
         </section>
       </div>
     </section>
